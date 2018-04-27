@@ -1,0 +1,19 @@
+{
+  "name": "@daimeng/palette",
+  "version": "1.0.2",
+  "description": "Sharing variable as separate repo demo with scss and js",
+  "main": "index.js",
+  "scripts": {
+    "prepack": "node ./scripts/extract.js",
+    "prepublish": "node ./scripts/extract.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kobold Taskmaster",
+  "license": "MIT",
+  "devDependencies": {
+    "scss-to-json": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
